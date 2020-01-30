@@ -20,6 +20,12 @@
         display: flex
         flex-direction: column
         overflow: scroll
+        -ms-overflow-style: none //IE
+        scrollbar-width: none //Firefox
+        
+    ::-webkit-scrollbar /* for hiding the scrollbar in chrome/safari */
+        display: none
 
     button
         margin-top: auto
+
