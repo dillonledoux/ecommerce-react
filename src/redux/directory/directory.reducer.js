@@ -31,6 +31,10 @@ const INITIAL_STATE = {
           size: 'large',
           id: 5,
           linkUrl: 'shop/mens'
+<<<<<<< HEAD
+=======
+          //something weird with the linking happening, homepage should push to appropriate collection
+>>>>>>> a33d22789468a3ccef3efd033fa093bbce8ab2d8
         }
     ]
 };
