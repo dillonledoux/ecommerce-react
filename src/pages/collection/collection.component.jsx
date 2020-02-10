@@ -9,13 +9,8 @@ import CollectionItem from '../../components/collection-item/collection-item.com
 
 
 const CollectionPage = ({ collection }) => {
-<<<<<<< HEAD
     const { title, items } = collection;
     
-=======
-    console.log(collection);
-    const { title, items } = collection;
->>>>>>> a33d22789468a3ccef3efd033fa093bbce8ab2d8
     return(
     <div className='collection-page'>
         <h2 className='title'>{ title }</h2>
@@ -23,12 +18,8 @@ const CollectionPage = ({ collection }) => {
             {
                 items.map(item => (
                     <CollectionItem key={item.id} item={item} />
-<<<<<<< HEAD
                 ))
             }
-=======
-            ))}
->>>>>>> a33d22789468a3ccef3efd033fa093bbce8ab2d8
         </div>
     </div>)
 };
