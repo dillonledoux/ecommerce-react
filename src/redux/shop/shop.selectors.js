@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import CollectionPreview from '../../components/collection-preview/collection-preview.component';
+//import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
 const selectShop = state => state.shop;
 
