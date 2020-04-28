@@ -72,4 +72,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-Adding this text for commit.
+Adding this text for commit.( Leaning how to use github from git bash )
