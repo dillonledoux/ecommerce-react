@@ -2,8 +2,9 @@ import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const OptionContainerStyles = css`
-    padding: 10px 15px;
+    padding: 8px 6px;
     cursor: pointer;
+    min-width: 55px;
 `;
 
 export const HeaderContainer = styled.div`
@@ -21,11 +22,12 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const OptionsContainer = styled.div`
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    text-align: right;
 `;
 
 export const OptionDiv = styled.div`

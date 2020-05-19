@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SignUpContainer = styled.div`
-    width: 380px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 `;
